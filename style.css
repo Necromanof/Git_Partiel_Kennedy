@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 
 nav {
@@ -7,6 +8,17 @@ nav {
     color: white;
     display: flex;
     justify-content: flex-start
+}
+
+nav li ul {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.723);
+    width: 100%;
+    left: 0;
+    top: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 nav a {
@@ -31,3 +43,31 @@ nav li {
 nav a:hover {
     background-color: rgb(0, 0, 255);
 }
+
+nav li:hover ul {
+    display: block;
+}
+
+nav li ul li {
+    width: 200px;
+    margin: 0;
+}
+
+.mPage{
+    margin: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 255, 0.723);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgba(135, 206, 250, 0.8); /* Couleur de survol en bleu ciel */
+}
+
