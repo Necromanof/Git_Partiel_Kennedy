@@ -68,6 +68,6 @@ nav li ul li {
 }
 
 .button:hover {
-    background-color: rgba(135, 206, 250, 0.8); /* Couleur de survol en bleu ciel */
+    background-color: rgba(135, 206, 250, 0.8); 
 }
 
